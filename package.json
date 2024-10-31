@@ -17,7 +17,7 @@
     "i18n:compile": "yarn i18n:extract && lingui compile",
     "i18n:pseudo": "lingui extract --locale pseudo && lingui compile",
     "prepare": "yarn contracts:compile && yarn graphql:fetch && yarn graphql:generate && yarn i18n:compile",
-    "start": "craco start",
+    "start": "craco start --verbose",
     "build": "craco build",
     "serve": "serve build -l 3000",
     "lint": "yarn eslint .",

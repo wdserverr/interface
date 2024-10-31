@@ -38,7 +38,7 @@ import {
   WBTC_OPTIMISM,
   WBTC_POLYGON,
   WETH_POLYGON,
-  WETH_POLYGON_MUMBAI,
+  // WETH_POLYGON_MUMBAI,
   WRAPPED_NATIVE_CURRENCY,
 } from './tokens'
 
@@ -122,21 +122,47 @@ export const COMMON_BASES: ChainCurrencyList = {
     WBTC,
     WRAPPED_NATIVE_CURRENCY[SupportedChainId.MAINNET] as Token,
   ],
-  [SupportedChainId.ROPSTEN]: [
-    nativeOnChain(SupportedChainId.ROPSTEN),
-    WRAPPED_NATIVE_CURRENCY[SupportedChainId.ROPSTEN] as Token,
+  // [SupportedChainId.ROPSTEN]: [
+  //   nativeOnChain(SupportedChainId.ROPSTEN),
+  //   WRAPPED_NATIVE_CURRENCY[SupportedChainId.ROPSTEN] as Token,
+  // ],
+  // [SupportedChainId.RINKEBY]: [
+  //   nativeOnChain(SupportedChainId.RINKEBY),
+  //   WRAPPED_NATIVE_CURRENCY[SupportedChainId.RINKEBY] as Token,
+  // ],
+  // [SupportedChainId.GOERLI]: [
+  //   nativeOnChain(SupportedChainId.GOERLI),
+  //   WRAPPED_NATIVE_CURRENCY[SupportedChainId.GOERLI] as Token,
+  // ],
+  // [SupportedChainId.KOVAN]: [
+  //   nativeOnChain(SupportedChainId.KOVAN),
+  //   WRAPPED_NATIVE_CURRENCY[SupportedChainId.KOVAN] as Token,
+  // ],
+  // [SupportedChainId.ARBITRUM_RINKEBY]: [
+  //   nativeOnChain(SupportedChainId.ARBITRUM_RINKEBY),
+  //   WRAPPED_NATIVE_CURRENCY[SupportedChainId.ARBITRUM_RINKEBY] as Token,
+  // ],
+
+  // [SupportedChainId.OPTIMISM_GOERLI]: [nativeOnChain(SupportedChainId.OPTIMISM_GOERLI)],
+  // [SupportedChainId.POLYGON_MUMBAI]: [
+  //   nativeOnChain(SupportedChainId.POLYGON_MUMBAI),
+  //   WRAPPED_NATIVE_CURRENCY[SupportedChainId.POLYGON_MUMBAI] as Token,
+  //   WETH_POLYGON_MUMBAI,
+  // ],
+  [SupportedChainId.POLYGON]: [
+    nativeOnChain(SupportedChainId.POLYGON),
+    WETH_POLYGON,
+    USDC_POLYGON,
+    DAI_POLYGON,
+    USDT_POLYGON,
+    WBTC_POLYGON,
   ],
-  [SupportedChainId.RINKEBY]: [
-    nativeOnChain(SupportedChainId.RINKEBY),
-    WRAPPED_NATIVE_CURRENCY[SupportedChainId.RINKEBY] as Token,
-  ],
-  [SupportedChainId.GOERLI]: [
-    nativeOnChain(SupportedChainId.GOERLI),
-    WRAPPED_NATIVE_CURRENCY[SupportedChainId.GOERLI] as Token,
-  ],
-  [SupportedChainId.KOVAN]: [
-    nativeOnChain(SupportedChainId.KOVAN),
-    WRAPPED_NATIVE_CURRENCY[SupportedChainId.KOVAN] as Token,
+  [SupportedChainId.OPTIMISM]: [
+    nativeOnChain(SupportedChainId.OPTIMISM),
+    DAI_OPTIMISM,
+    USDC_OPTIMISM,
+    USDT_OPTIMISM,
+    WBTC_OPTIMISM,
   ],
   [SupportedChainId.ARBITRUM_ONE]: [
     nativeOnChain(SupportedChainId.ARBITRUM_ONE),
@@ -146,32 +172,6 @@ export const COMMON_BASES: ChainCurrencyList = {
     WBTC_ARBITRUM_ONE,
     WRAPPED_NATIVE_CURRENCY[SupportedChainId.ARBITRUM_ONE] as Token,
   ],
-  [SupportedChainId.ARBITRUM_RINKEBY]: [
-    nativeOnChain(SupportedChainId.ARBITRUM_RINKEBY),
-    WRAPPED_NATIVE_CURRENCY[SupportedChainId.ARBITRUM_RINKEBY] as Token,
-  ],
-  [SupportedChainId.OPTIMISM]: [
-    nativeOnChain(SupportedChainId.OPTIMISM),
-    DAI_OPTIMISM,
-    USDC_OPTIMISM,
-    USDT_OPTIMISM,
-    WBTC_OPTIMISM,
-  ],
-  [SupportedChainId.OPTIMISM_GOERLI]: [nativeOnChain(SupportedChainId.OPTIMISM_GOERLI)],
-  [SupportedChainId.POLYGON]: [
-    nativeOnChain(SupportedChainId.POLYGON),
-    WETH_POLYGON,
-    USDC_POLYGON,
-    DAI_POLYGON,
-    USDT_POLYGON,
-    WBTC_POLYGON,
-  ],
-  [SupportedChainId.POLYGON_MUMBAI]: [
-    nativeOnChain(SupportedChainId.POLYGON_MUMBAI),
-    WRAPPED_NATIVE_CURRENCY[SupportedChainId.POLYGON_MUMBAI] as Token,
-    WETH_POLYGON_MUMBAI,
-  ],
-
   [SupportedChainId.CELO]: [
     nativeOnChain(SupportedChainId.CELO),
     CEUR_CELO,

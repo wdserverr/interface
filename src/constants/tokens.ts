@@ -18,34 +18,34 @@ export const USDC_MAINNET = new Token(
   'USDC',
   'USD//C'
 )
-export const USDC_ROPSTEN = new Token(
-  SupportedChainId.ROPSTEN,
-  '0x07865c6e87b9f70255377e024ace6630c1eaa37f',
-  6,
-  'USDC',
-  'USD//C'
-)
-export const USDC_RINKEBY = new Token(
-  SupportedChainId.RINKEBY,
-  '0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b',
-  6,
-  'tUSDC',
-  'test USD//C'
-)
-export const USDC_GOERLI = new Token(
-  SupportedChainId.GOERLI,
-  '0x07865c6e87b9f70255377e024ace6630c1eaa37f',
-  6,
-  'USDC',
-  'USD//C'
-)
-export const USDC_KOVAN = new Token(
-  SupportedChainId.KOVAN,
-  '0x31eeb2d0f9b6fd8642914ab10f4dd473677d80df',
-  6,
-  'USDC',
-  'USD//C'
-)
+// export const USDC_ROPSTEN = new Token(
+//   SupportedChainId.ROPSTEN,
+//   '0x07865c6e87b9f70255377e024ace6630c1eaa37f',
+//   6,
+//   'USDC',
+//   'USD//C'
+// )
+// export const USDC_RINKEBY = new Token(
+//   SupportedChainId.RINKEBY,
+//   '0x4DBCdF9B62e891a7cec5A2568C3F4FAF9E8Abe2b',
+//   6,
+//   'tUSDC',
+//   'test USD//C'
+// )
+// export const USDC_GOERLI = new Token(
+//   SupportedChainId.GOERLI,
+//   '0x07865c6e87b9f70255377e024ace6630c1eaa37f',
+//   6,
+//   'USDC',
+//   'USD//C'
+// )
+// export const USDC_KOVAN = new Token(
+//   SupportedChainId.KOVAN,
+//   '0x31eeb2d0f9b6fd8642914ab10f4dd473677d80df',
+//   6,
+//   'USDC',
+//   'USD//C'
+// )
 export const USDC_OPTIMISM = new Token(
   SupportedChainId.OPTIMISM,
   '0x7F5c764cBc14f9669B88837ca1490cCa17c31607',
@@ -53,13 +53,13 @@ export const USDC_OPTIMISM = new Token(
   'USDC',
   'USD//C'
 )
-export const USDC_OPTIMISM_GOERLI = new Token(
-  SupportedChainId.OPTIMISM_GOERLI,
-  '0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E',
-  6,
-  'USDC',
-  'USD//C'
-)
+// export const USDC_OPTIMISM_GOERLI = new Token(
+//   SupportedChainId.OPTIMISM_GOERLI,
+//   '0x7E07E15D2a87A24492740D16f5bdF58c16db0c4E',
+//   6,
+//   'USDC',
+//   'USD//C'
+// )
 export const USDC_ARBITRUM = new Token(
   SupportedChainId.ARBITRUM_ONE,
   '0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8',
@@ -67,13 +67,13 @@ export const USDC_ARBITRUM = new Token(
   'USDC',
   'USD//C'
 )
-export const USDC_ARBITRUM_RINKEBY = new Token(
-  SupportedChainId.ARBITRUM_RINKEBY,
-  '0x09b98f8b2395d076514037ff7d39a091a536206c',
-  6,
-  'USDC',
-  'USD//C'
-)
+// export const USDC_ARBITRUM_RINKEBY = new Token(
+//   SupportedChainId.ARBITRUM_RINKEBY,
+//   '0x09b98f8b2395d076514037ff7d39a091a536206c',
+//   6,
+//   'USDC',
+//   'USD//C'
+// )
 export const USDC_POLYGON = new Token(
   SupportedChainId.POLYGON,
   '0x2791bca1f2de4661ed88a30c99a7a9449aa84174',
@@ -81,13 +81,13 @@ export const USDC_POLYGON = new Token(
   'USDC',
   'USD//C'
 )
-export const USDC_POLYGON_MUMBAI = new Token(
-  SupportedChainId.POLYGON_MUMBAI,
-  '0xe11a86849d99f524cac3e7a0ec1241828e332c62',
-  6,
-  'USDC',
-  'USD//C'
-)
+// export const USDC_POLYGON_MUMBAI = new Token(
+//   SupportedChainId.POLYGON_MUMBAI,
+//   '0xe11a86849d99f524cac3e7a0ec1241828e332c62',
+//   6,
+//   'USDC',
+//   'USD//C'
+// )
 export const PORTAL_USDC_CELO = new Token(
   SupportedChainId.CELO,
   '0x37f750B7cC259A2f741AF45294f6a16572CF5cAd',
@@ -134,16 +134,16 @@ export const USDC: { [chainId in SupportedChainId]: Token } = {
   [SupportedChainId.MAINNET]: USDC_MAINNET,
   [SupportedChainId.ARBITRUM_ONE]: USDC_ARBITRUM,
   [SupportedChainId.OPTIMISM]: USDC_OPTIMISM,
-  [SupportedChainId.ARBITRUM_RINKEBY]: USDC_ARBITRUM_RINKEBY,
-  [SupportedChainId.OPTIMISM_GOERLI]: USDC_OPTIMISM_GOERLI,
+  // [SupportedChainId.ARBITRUM_RINKEBY]: USDC_ARBITRUM_RINKEBY,
+  // [SupportedChainId.OPTIMISM_GOERLI]: USDC_OPTIMISM_GOERLI,
+  // [SupportedChainId.POLYGON_MUMBAI]: USDC_POLYGON_MUMBAI,
+  // [SupportedChainId.GOERLI]: USDC_GOERLI,
+  // [SupportedChainId.RINKEBY]: USDC_RINKEBY,
+  // [SupportedChainId.KOVAN]: USDC_KOVAN,
+  // [SupportedChainId.ROPSTEN]: USDC_ROPSTEN,
   [SupportedChainId.POLYGON]: USDC_POLYGON,
-  [SupportedChainId.POLYGON_MUMBAI]: USDC_POLYGON_MUMBAI,
   [SupportedChainId.CELO]: PORTAL_USDC_CELO,
   [SupportedChainId.CELO_ALFAJORES]: USDC_CELO_ALFAJORES,
-  [SupportedChainId.GOERLI]: USDC_GOERLI,
-  [SupportedChainId.RINKEBY]: USDC_RINKEBY,
-  [SupportedChainId.KOVAN]: USDC_KOVAN,
-  [SupportedChainId.ROPSTEN]: USDC_ROPSTEN,
 }
 export const DAI_POLYGON = new Token(
   SupportedChainId.POLYGON,
@@ -271,13 +271,13 @@ export const SWISE = new Token(
   'SWISE',
   'StakeWise'
 )
-export const WETH_POLYGON_MUMBAI = new Token(
-  SupportedChainId.POLYGON_MUMBAI,
-  '0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa',
-  18,
-  'WETH',
-  'Wrapped Ether'
-)
+// export const WETH_POLYGON_MUMBAI = new Token(
+//   SupportedChainId.POLYGON_MUMBAI,
+//   '0xa6fa4fb5f76172d178d61b04b0ecd319c5d1c0aa',
+//   18,
+//   'WETH',
+//   'Wrapped Ether'
+// )
 
 export const WETH_POLYGON = new Token(
   SupportedChainId.POLYGON,
@@ -345,23 +345,16 @@ export const CEUR_CELO_ALFAJORES = new Token(
 
 export const UNI: { [chainId: number]: Token } = {
   [SupportedChainId.MAINNET]: new Token(SupportedChainId.MAINNET, UNI_ADDRESS[1], 18, 'UNI', 'Uniswap'),
-  [SupportedChainId.RINKEBY]: new Token(SupportedChainId.RINKEBY, UNI_ADDRESS[4], 18, 'UNI', 'Uniswap'),
-  [SupportedChainId.ROPSTEN]: new Token(SupportedChainId.ROPSTEN, UNI_ADDRESS[3], 18, 'UNI', 'Uniswap'),
-  [SupportedChainId.GOERLI]: new Token(SupportedChainId.GOERLI, UNI_ADDRESS[5], 18, 'UNI', 'Uniswap'),
-  [SupportedChainId.KOVAN]: new Token(SupportedChainId.KOVAN, UNI_ADDRESS[42], 18, 'UNI', 'Uniswap'),
+  // [SupportedChainId.RINKEBY]: new Token(SupportedChainId.RINKEBY, UNI_ADDRESS[4], 18, 'UNI', 'Uniswap'),
+  // [SupportedChainId.ROPSTEN]: new Token(SupportedChainId.ROPSTEN, UNI_ADDRESS[3], 18, 'UNI', 'Uniswap'),
+  // [SupportedChainId.GOERLI]: new Token(SupportedChainId.GOERLI, UNI_ADDRESS[5], 18, 'UNI', 'Uniswap'),
+  // [SupportedChainId.KOVAN]: new Token(SupportedChainId.KOVAN, UNI_ADDRESS[42], 18, 'UNI', 'Uniswap'),
 }
 
 export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } = {
   ...(WETH9 as Record<SupportedChainId, Token>),
   [SupportedChainId.OPTIMISM]: new Token(
     SupportedChainId.OPTIMISM,
-    '0x4200000000000000000000000000000000000006',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
-  [SupportedChainId.OPTIMISM_GOERLI]: new Token(
-    SupportedChainId.OPTIMISM_GOERLI,
     '0x4200000000000000000000000000000000000006',
     18,
     'WETH',
@@ -374,13 +367,20 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     'WETH',
     'Wrapped Ether'
   ),
-  [SupportedChainId.ARBITRUM_RINKEBY]: new Token(
-    SupportedChainId.ARBITRUM_RINKEBY,
-    '0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681',
-    18,
-    'WETH',
-    'Wrapped Ether'
-  ),
+  // [SupportedChainId.OPTIMISM_GOERLI]: new Token(
+  //   SupportedChainId.OPTIMISM_GOERLI,
+  //   '0x4200000000000000000000000000000000000006',
+  //   18,
+  //   'WETH',
+  //   'Wrapped Ether'
+  // ),
+  // [SupportedChainId.ARBITRUM_RINKEBY]: new Token(
+  //   SupportedChainId.ARBITRUM_RINKEBY,
+  //   '0xB47e6A5f8b33b3F17603C83a0535A9dcD7E32681',
+  //   18,
+  //   'WETH',
+  //   'Wrapped Ether'
+  // ),
   [SupportedChainId.POLYGON]: new Token(
     SupportedChainId.POLYGON,
     '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
@@ -388,13 +388,13 @@ export const WRAPPED_NATIVE_CURRENCY: { [chainId: number]: Token | undefined } =
     'WMATIC',
     'Wrapped MATIC'
   ),
-  [SupportedChainId.POLYGON_MUMBAI]: new Token(
-    SupportedChainId.POLYGON_MUMBAI,
-    '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
-    18,
-    'WMATIC',
-    'Wrapped MATIC'
-  ),
+  // [SupportedChainId.POLYGON_MUMBAI]: new Token(
+  //   SupportedChainId.POLYGON_MUMBAI,
+  //   '0x9c3C9283D3e44854697Cd22D3Faa240Cfb032889',
+  //   18,
+  //   'WMATIC',
+  //   'Wrapped MATIC'
+  // ),
   [SupportedChainId.CELO]: new Token(
     SupportedChainId.CELO,
     '0x471ece3750da237f93b8e339c536989b8978a438',
@@ -426,9 +426,12 @@ function getCeloNativeCurrency(chainId: number) {
   }
 }
 
-function isMatic(chainId: number): chainId is SupportedChainId.POLYGON | SupportedChainId.POLYGON_MUMBAI {
-  return chainId === SupportedChainId.POLYGON_MUMBAI || chainId === SupportedChainId.POLYGON
+function isMatic(chainId: number): chainId is SupportedChainId.POLYGON {
+  return chainId === SupportedChainId.POLYGON
 }
+// function isMatic(chainId: number): chainId is SupportedChainId.POLYGON | SupportedChainId.POLYGON_MUMBAI {
+//   return chainId === SupportedChainId.POLYGON_MUMBAI || chainId === SupportedChainId.POLYGON
+// }
 
 class MaticNativeCurrency extends NativeCurrency {
   equals(other: Currency): boolean {
@@ -481,15 +484,15 @@ export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in SupportedCha
     [SupportedChainId.MAINNET]: USDC_MAINNET.address,
     [SupportedChainId.ARBITRUM_ONE]: USDC_ARBITRUM.address,
     [SupportedChainId.OPTIMISM]: USDC_OPTIMISM.address,
-    [SupportedChainId.ARBITRUM_RINKEBY]: USDC_ARBITRUM_RINKEBY.address,
-    [SupportedChainId.OPTIMISM_GOERLI]: USDC_OPTIMISM_GOERLI.address,
+    // [SupportedChainId.ARBITRUM_RINKEBY]: USDC_ARBITRUM_RINKEBY.address,
+    // [SupportedChainId.OPTIMISM_GOERLI]: USDC_OPTIMISM_GOERLI.address,
+    // [SupportedChainId.POLYGON_MUMBAI]: USDC_POLYGON_MUMBAI.address,
+    // [SupportedChainId.GOERLI]: USDC_GOERLI.address,
+    // [SupportedChainId.RINKEBY]: USDC_RINKEBY.address,
+    // [SupportedChainId.KOVAN]: USDC_KOVAN.address,
+    // [SupportedChainId.ROPSTEN]: USDC_ROPSTEN.address,
     [SupportedChainId.POLYGON]: USDC_POLYGON.address,
-    [SupportedChainId.POLYGON_MUMBAI]: USDC_POLYGON_MUMBAI.address,
     [SupportedChainId.CELO]: PORTAL_USDC_CELO.address,
     [SupportedChainId.CELO_ALFAJORES]: PORTAL_USDC_CELO.address,
-    [SupportedChainId.GOERLI]: USDC_GOERLI.address,
-    [SupportedChainId.RINKEBY]: USDC_RINKEBY.address,
-    [SupportedChainId.KOVAN]: USDC_KOVAN.address,
-    [SupportedChainId.ROPSTEN]: USDC_ROPSTEN.address,
   },
 }

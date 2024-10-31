@@ -29,15 +29,15 @@ export function toHistoryDuration(timePeriod: TimePeriod): HistoryDuration {
 
 export const CHAIN_ID_TO_BACKEND_NAME: { [key: number]: Chain } = {
   [SupportedChainId.MAINNET]: 'ETHEREUM',
-  [SupportedChainId.GOERLI]: 'ETHEREUM_GOERLI',
   [SupportedChainId.POLYGON]: 'POLYGON',
-  [SupportedChainId.POLYGON_MUMBAI]: 'POLYGON',
   [SupportedChainId.CELO]: 'CELO',
   [SupportedChainId.CELO_ALFAJORES]: 'CELO',
   [SupportedChainId.ARBITRUM_ONE]: 'ARBITRUM',
-  [SupportedChainId.ARBITRUM_RINKEBY]: 'ARBITRUM',
   [SupportedChainId.OPTIMISM]: 'OPTIMISM',
-  [SupportedChainId.OPTIMISM_GOERLI]: 'OPTIMISM',
+  // [SupportedChainId.GOERLI]: 'ETHEREUM_GOERLI',
+  // [SupportedChainId.POLYGON_MUMBAI]: 'POLYGON',
+  // [SupportedChainId.OPTIMISM_GOERLI]: 'OPTIMISM',
+  // [SupportedChainId.ARBITRUM_RINKEBY]: 'ARBITRUM',
 }
 
 export function chainIdToBackendName(chainId: number | undefined) {
