@@ -5,7 +5,7 @@ const dataConfig = require('./relay.config')
 const thegraphConfig = require('./relay_thegraph.config')
 /* eslint-enable */
 
-const THEGRAPH_API_URL = 'https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v3'
+const THEGRAPH_API_URL = 'https://community-subgraphs.graph-eu.p2pify.com/284d914650336b96423a99b391559b13/uniswap-v3'
 exec(`get-graphql-schema ${THEGRAPH_API_URL} > ${thegraphConfig.schema}`)
 
 console.log(process.env.REACT_APP_AWS_API_ENDPOINT)

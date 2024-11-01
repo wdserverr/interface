@@ -1,5 +1,4 @@
 export const SUPPORTED_LOCALES = [
-  // order as they appear in the language dropdown
   'en-US',
   'af-ZA',
   'ar-SA',
@@ -33,7 +32,7 @@ export const SUPPORTED_LOCALES = [
   'zh-CN',
   'zh-TW',
 ]
-export type SupportedLocale = typeof SUPPORTED_LOCALES[number] | 'pseudo'
+export type SupportedLocale = (typeof SUPPORTED_LOCALES)[number] | 'pseudo'
 
 export const DEFAULT_LOCALE: SupportedLocale = 'en-US'
 
